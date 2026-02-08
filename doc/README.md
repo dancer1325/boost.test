@@ -1,20 +1,20 @@
-This folder contains the documentation for the Boost.Test library.
-Any contribution or submission to the library should be accompanied by the corresponding documentation.
+* goal
+  * Boost.Test library's documentation 
 
-The format of the documentation uses [Quickbook](http://www.boost.org/tools/quickbook/index.html).
+* Boost.Test library's documentation
+  * -- based on -- [Quickbook](http://www.boost.org/tools/quickbook/index.html)
 
 How to build the documentation
 ==============================
 
-In order to generate the documentation, the following is needed:
-
-* Docbook
-* Doxygen
-* xsltproc
+* requirements
+  * [Docbook](#docbook)
+  * [Doxygen](#doxygen)
+  * [xsltproc](#download-xsltproc)
 
 Doxygen
 -------
-Part of the documentation needs [Doxygen](http://www.doxygen.org). `doxygen` should be accessible from the `PATH`.
+* TODO: Part of the documentation needs [Doxygen](http://www.doxygen.org). `doxygen` should be accessible from the `PATH`.
 
 Docbook
 -------
@@ -26,7 +26,7 @@ Quickbook needs Docbook (XSL and XML) to be installed. Download and untar the do
 The directories `$docbook_xsl_directory` and `$docbook_dtd_directory`, respectively, will refer to the location
 of the deflated archive.
 
-Download xsltproc
+xsltproc
 -----------------
 This program is needed by Docbook, in order to be able to transform XMLs into HTMLs.
 `xsltproc` should be accessible from the `PATH`.
